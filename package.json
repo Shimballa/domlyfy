@@ -1,0 +1,34 @@
+{
+  "name": "domlyfy",
+  "version": "0.0.1",
+  "description": "DOMly precompiler plugin for Browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh test.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shimballa/domlyfy"
+  },
+  "keywords": [
+    "domly",
+    "browserify",
+    "js",
+    "plugin",
+    "transform",
+    "browserify-transform"
+  ],
+  "author": {
+    "name": "Paul Apostol"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "domly": "0.0.8",
+    "through": "~2.3.4",
+    "xtend": "~3.0.0"
+  },
+  "devDependencies": {
+    "browserify": "~4.2.3",
+    "concat-stream": "~1.4.1"
+  }
+}
